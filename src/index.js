@@ -7,6 +7,7 @@ import './index.css'
 
 import App from './App';
 
+Axios.defaults.baseURL='https://chicagomusic-back.herokuapp.com/'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,4 +21,3 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
 
-Axios.defaults.baseURL='https://chicagomusic-back.herokuapp.com/'

@@ -54,7 +54,7 @@ function AddPost()
                 postid: uniqid()
             }
             const abortCont = new AbortController();
-            axios.post('/api/post/addnewpost', post, {signal: abortCont.signal }).then(res => {
+            axios.post('api/post/addnewpost', post, {signal: abortCont.signal }).then(res => {
                 alert(res.data)
                 navigate("/postlist");
             }).then(err => {
