@@ -41,7 +41,7 @@ const PostItem = ({ post }) => {
               controls
               preload="none"
             />
-            <div className="buttons" >
+            <div className="buttons" hidden>
               <Link to={`/editpost/${post.postid}`}>
                 <li className="btn btn-info m-1 rounded-pill ">Edit</li>
               </Link>
